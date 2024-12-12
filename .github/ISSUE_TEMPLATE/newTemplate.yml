@@ -32,7 +32,7 @@ body:
       description: select the types of your request?
       options:
         - New Feature    
-        - 1.0.3 (Edge)
+        - New 
       default: 0
     validations:
       required: true

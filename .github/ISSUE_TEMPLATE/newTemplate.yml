@@ -7,10 +7,7 @@ projects: ["octo-org/1", "octo-org/44"]
 assignees: 
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
- 
+
   - type: input
     id: contact
     attributes:
@@ -19,6 +16,11 @@ body:
       placeholder: ex. Chayaodom Jaisodsai
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
 
   
  
